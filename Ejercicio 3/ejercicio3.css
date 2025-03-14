@@ -125,3 +125,8 @@ relleno en la zona superior e inferior.
     padding: 0.5em;
     margin-top: 1em;
 }
+
+/*El contenido principal y secundario no quedan bien, asi que con este cambio debería rreglarse*/
+#principal, #secundario {
+    box-sizing: border-box;
+}
