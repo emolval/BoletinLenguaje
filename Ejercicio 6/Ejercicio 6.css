@@ -1,0 +1,9 @@
+div {
+    display: flex;
+    background-color: #EEE;
+    padding: 10px;
+    border: 1px solid #CCC;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
