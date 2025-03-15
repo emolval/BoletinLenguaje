@@ -1,0 +1,19 @@
+div {
+    display: flex;
+    gap: 30px;
+    /*Si quieres que se ajuste al tamaño de la pantalla
+    Comentar las 4 lineas finales y descomentar la siguinte*/
+    /*flex-wrap: wrap;*/
+
+    /*SI quieres que sea siempre 3 filas y 3 columnas
+    Usar estas 4 lineas sin la de arriba, que está comentada*/
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    justify-content: flex-start;
+}
+
+div img {
+    padding: 8px;
+    border: 2px solid rgb(197, 193, 193);
+}
